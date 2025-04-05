@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&family=Righteous&family=Tac+One&display=swap');
+@import 'simplebar-react/dist/simplebar.min.css';
+
+@font-face {
+  font-family: 'Campana';
+  src: url('/fonts/campana_script/CampanaScript_PERSONAL_USE_ONLY.otf');
+}
+@font-face {
+  font-family: 'adelia';
+  src: url('/fonts/Calligraphy/adelia.otf');
+}
+@font-face {
+  font-family: 'Amarillo';
+  src: url('/fonts/Calligraphy/Amarillo.otf');
+}
+@font-face {
+  font-family: 'Ananda';
+  src: url('/fonts/Calligraphy/Ananda.ttf');
+}
+@font-face {
+  font-family: 'Angelist';
+  src: url('/fonts/Calligraphy/Angelist.ttf');
+}
+@font-face {
+  font-family: 'Antheya_DEMO';
+  src: url('/fonts/Calligraphy/Anthaya_DEMO.ttf');
+}
+@font-face {
+  font-family: 'Aston Script';
+  src: url('/fonts/Calligraphy/Aston Script.ttf');
+}
+@font-face {
+  font-family: 'BillionDreams';
+  src: url('/fonts/Calligraphy/BillionDreams.ttf');
+}
+@font-face {
+  font-family: 'Black Storm';
+  src: url('/fonts/Calligraphy/Black Storm.ttf');
+}
+@font-face {
+  font-family: 'wolfbones';
+  src: url('/fonts/Calligraphy/wolfbones.otf');
+}
+@font-face {
+  font-family: 'Cream Cake';
+  src: url('/fonts/Calligraphy/Cream Cake.otf');
+}
+@font-face {
+  font-family: 'Aligator';
+  src: url('/fonts/Modern/Aligator.otf');
+}
+@font-face {
+  font-family: 'Bad Boys';
+  src: url('/fonts/Modern/Bad Boys.ttf');
+}
+@font-face {
+  font-family: 'Deadknight';
+  src: url('/fonts/Modern/Deadknight.otf');
+}
+@font-face {
+  font-family: 'Gamerock';
+  src: url('/fonts/Modern/Gamerock.otf');
+}
+@font-face {
+  font-family: 'Chopsic';
+  src: url('/fonts/Modern/Chopsic.otf');
+}
+@font-face {
+  font-family: 'Geizer';
+  src: url('/fonts/Modern/Geizer.otf');
+}
+@font-face {
+  font-family: 'Slaytanic';
+  src: url('/fonts/Modern/Slaytanic.ttf');
+}
+@font-face {
+  font-family: 'DirtyCrown';
+  src: url('/fonts/Modern/DirtyCrown.ttf');
+}
+@font-face {
+  font-family: 'Black Mustang';
+  src: url('/fonts/Modern/Black Mustang.ttf');
+}
+@font-face {
+  font-family: 'AngerStyles';
+  src: url('/fonts/Modern/AngerStyles.ttf');
+}
+@font-face {
+  font-family: 'Eavm';
+  src: url('/fonts/Sci-Fi/Eavm.ttf');
+}
+@font-face {
+  font-family: 'CANAVAR';
+  src: url('/fonts/Sci-Fi/CANAVAR.ttf');
+}
+@font-face {
+  font-family: 'Deltha';
+  src: url('/fonts/Sci-Fi/Deltha.otf');
+}
+@font-face {
+  font-family: 'Nasi';
+  src: url('/fonts/Sci-Fi/Nasi.otf');
+}
+@font-face {
+  font-family: 'airstrike';
+  src: url('/fonts/Sci-Fi/airstrike.ttf');
+}
+@font-face {
+  font-family: 'Bring Race';
+  src: url('/fonts/Sci-Fi/Bring Race.otf');
+}
+@font-face {
+  font-family: 'Masterpiece';
+  src: url('/fonts/Sci-Fi/Masterpiece.ttf');
+}
+@font-face {
+  font-family: 'Game Of Squids';
+  src: url('/fonts/Sci-Fi/Game Of Squids.otf');
+}
+@font-face {
+  font-family: 'paladins';
+  src: url('/fonts/Sci-Fi/paladins.ttf');
+}
+@font-face {
+  font-family: 'NEXTSTEP';
+  src: url('/fonts/Sci-Fi/NEXTSTEP.ttf');
+}
+@font-face {
+  font-family: 'Chernobyl';
+  src: url('/fonts/Russian/Chernobyl.otf');
+}
+@font-face {
+  font-family: 'Metro';
+  src: url('/fonts/Russian/Metro.otf');
+}
+@font-face {
+  font-family: 'Molot';
+  src: url('/fonts/Russian/Molot.otf');
+}
+@font-face {
+  font-family: 'Motherland';
+  src: url('/fonts/Russian/motherland.ttf');
+}
+@font-face {
+  font-family: 'Russian';
+  src: url('/fonts/Russian/Russian.ttf');
+}
+@font-face {
+  font-family: 'Imperial';
+  src: url('/fonts/Russian/Imperial.otf');
+}
+@font-face {
+  font-family: 'propaganda';
+  src: url('/fonts/Russian/propaganda.ttf');
+}
+@font-face {
+  font-family: 'Soviet2';
+  src: url('/fonts/Russian/Soviet2.ttf');
+}
+@font-face {
+  font-family: 'PROPAGAN';
+  src: url('/fonts/Russian/PROPAGAN.ttf');
+}
+@font-face {
+  font-family: 'Strengthen';
+  src: url('/fonts/Russian/Strengthen.ttf');
+}
+
+@font-face {
+  font-family: 'Catfiles';
+  src: url('/fonts/catfiles/Catfiles.otf');
+}
+@font-face {
+  font-family: 'DevilCandle';
+  src: url('/fonts/devil_candle/DevilCandle_PERSONAL_USE_ONLY.otf');
+}
+@font-face {
+  font-family: 'EnchantedLand';
+  src: url('/fonts/enchanted_land/Enchanted\ Land.otf');
+}
+@font-face {
+  font-family: 'Pervitina';
+  src: url('/fonts/pervitina_dex/Pervitina-Dex-FFP.ttf');
+}
+@font-face {
+  font-family: 'Raillinc';
+  src: url('/fonts/raillinc/Raillinc.otf');
+}
+@font-face {
+  font-family: 'vogue';
+  src: url('/fonts/vogue/Vogue.ttf');
+}
+
+.righteous-regular {
+  font-family: 'Righteous', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.permanent-marker-regular {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.bebas-neue-regular {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.tac-one-regular {
+  font-family: 'Tac One', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.campana {
+  font-family: 'Campana';
+}
+
+.catfiles {
+  font-family: 'Catfiles';
+}
+
+.devil-candle {
+  font-family: 'DevilCandle';
+}
+
+.enchanted-land {
+  font-family: 'EnchantedLand';
+}
+
+.pervitina {
+  font-family: 'Pervitina';
+}
+
+.raillinc {
+  font-family: 'Raillinc';
+}
+
+.vogue {
+  font-family: 'vogue';
+}
+.Adelia {
+  font-family: 'adelia';
+}
+.Amarillo {
+  font-family: 'Amarillo';
+}
+.Ananda {
+  font-family: 'Ananda';
+}
+.Angelist {
+  font-family: 'Angelist';
+}
+.Anthaya {
+  font-family: 'Antheya_DEMO';
+}
+.Aston-Script {
+  font-family: 'Aston Script';
+}
+.BillionDreams {
+  font-family: 'BillionDreams';
+}
+.Black-Storm {
+  font-family: 'Black Storm';
+}
+.wolfbones {
+  font-family: 'wolfbones';
+}
+.Cream-Cake {
+  font-family: 'Cream Cake';
+}
+.Aligator {
+  font-family: 'Aligator';
+}
+.Bad-Boys {
+  font-family: 'Bad Boys';
+}
+.Deadknight {
+  font-family: 'Deadknight';
+}
+.Gamerock {
+  font-family: 'Gamerock';
+}
+.Chopsic {
+  font-family: 'Chopsic';
+}
+.Geizer {
+  font-family: 'Geizer';
+}
+.Slaytanic {
+  font-family: 'Slaytanic';
+}
+.DirtyCrown {
+  font-family: 'DirtyCrown';
+}
+.Black-Mustang {
+  font-family: 'Black Mustang';
+}
+.AngerStyles {
+  font-family: 'AngerStyles';
+}
+.Eavm {
+  font-family: 'Eavm';
+}
+.Canavar {
+  font-family: 'CANAVAR';
+}
+.Deltha {
+  font-family: 'Deltha';
+}
+.Nasi {
+  font-family: 'Nasi';
+}
+.airstrike {
+  font-family: 'airstrike';
+}
+.Bring-Race {
+  font-family: 'Bring Race';
+}
+.Masterpiece {
+  font-family: 'Masterpiece';
+}
+.Game-of-squids {
+  font-family: 'Game Of Squids';
+}
+.Paladins {
+  font-family: 'paladins';
+}
+.Nextstep {
+  font-family: 'NEXTSTEP';
+}
+.Chernobyl {
+  font-family: 'Chernobyl';
+}
+.Metro {
+  font-family: 'Metro';
+}
+.Molot {
+  font-family: 'Molot';
+}
+.Motherland {
+  font-family: 'motherland';
+}
+.Russian {
+  font-family: 'Russian';
+}
+.Imperial {
+  font-family: 'Imperial';
+}
+.Propaganda {
+  font-family: 'propaganda';
+}
+.Soviet2 {
+  font-family: 'Soviet2';
+}
+.Propagan {
+  font-family: 'PROPAGAN';
+}
+.Strengthen {
+  font-family: 'Strengthen';
+}
+
+@media screen and (max-width: 900px) {
+  .d-sm-none {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1192px) {
+  .d-md-none {
+    display: none !important;
+  }
+}
+
+h1 {
+  font-size: 44px !important;
+}
+
+.slide-from-left {
+  animation: slideInLeft 2s ease forwards;
+}
+
+.slide-from-right {
+  animation: slideInRight 2s ease forwards;
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.logo-slide svg {
+  width: 150px;
+  height: 150px;
+}
+.video-intro {
+  width: 800px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 375px) {
+  .video-intro {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .video-intro {
+    width: 600px;
+  }
+}

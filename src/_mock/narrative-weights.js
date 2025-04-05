@@ -1,0 +1,51 @@
+export const narrativeWeightsData = [
+  {
+    id: 1,
+    narratives: 'Name 1',
+    basedOnValue: { amount: '10,000', percentage: 0 },
+    basedOnDollarsInvested: { amount: '10,000', percentage: 0 },
+    basedOnTargetSet: { amount: '10,000', percentage: 0 },
+  },
+  {
+    id: 2,
+    narratives: 'Name 2',
+    basedOnValue: { amount: '2,000', percentage: 0 },
+    basedOnDollarsInvested: { amount: '2,000', percentage: 0 },
+    basedOnTargetSet: { amount: '2,000', percentage: 0 },
+  },
+  {
+    id: 3,
+    narratives: 'Name 3',
+    basedOnValue: { amount: '10,000', percentage: 0 },
+    basedOnDollarsInvested: { amount: '10,000', percentage: 0 },
+    basedOnTargetSet: { amount: '10,000', percentage: 0 },
+  },
+  {
+    id: 4,
+    narratives: 'Name 4',
+    basedOnValue: { amount: '100,000', percentage: 0 },
+    basedOnDollarsInvested: { amount: '100,000', percentage: 0 },
+    basedOnTargetSet: { amount: '100,000', percentage: 0 },
+  },
+  {
+    id: 5,
+    narratives: 'Name 5',
+    basedOnValue: { amount: '0', percentage: 0 },
+    basedOnDollarsInvested: { amount: '0', percentage: 0 },
+    basedOnTargetSet: { amount: '0', percentage: 0 },
+  },
+  {
+    id: 6,
+    narratives: 'Name 6',
+    basedOnValue: { amount: '2,000', percentage: 0 },
+    basedOnDollarsInvested: { amount: '2,000', percentage: 0 },
+    basedOnTargetSet: { amount: '2,000', percentage: 0 },
+  },
+  {
+    id: 7,
+    narratives: 'Name 7',
+    basedOnValue: { amount: '0', percentage: 0 },
+    basedOnDollarsInvested: { amount: '0', percentage: 0 },
+    basedOnTargetSet: { amount: '0', percentage: 0 },
+  },
+];
